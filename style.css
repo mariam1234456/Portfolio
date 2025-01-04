@@ -1,0 +1,190 @@
+body{
+    font-family: 'segoe ui light';
+    overflow: hidden;
+}
+header{
+    height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-size:cover ;
+    background-position: center center;
+    color: #fff;
+}
+.light-dots{
+   
+    background-image: url(images/light_dot.jpg);
+    
+}
+.social-contant a
+{
+    color: #Fff;
+}
+.social-contant p{
+    font-size: larger  ;
+}
+.icon{
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    height: 2.2rem;
+    width: 2.2rem;
+    margin: 5px;
+    border-radius: 50%;
+    
+}
+.icon i{
+    padding: 7px;
+}
+.title h2 
+{
+    font-size: 5rem;
+    color: #f1f1f1;
+}
+.title h3
+{
+    font-size: 3rem;
+    color: black;
+    padding: 20px;
+}
+.title h2 , .title h3
+{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+#services .title h2{
+    color: #222;
+}
+#services .title h3{
+    color: white;
+}
+#services p{
+    color:#6c757d ;
+    margin: 20px;
+}
+.about-image
+{
+    background-color: coral;
+}
+.about-info h4{
+    color: #ff206e !important;
+}
+.about-info p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.dark-dots{
+    background-image: url(images/dark_dot.jpg);
+}
+.services-item{
+    background-color: white;
+}
+#services .icon
+{
+    background-color: #000;
+    color: #fff;
+    bottom:100%;
+    right: 35%; 
+    transform: translateX(-50%) translateY(50%);
+}
+#services .icon i
+{
+    margin-top:-15px;
+}
+.animi{
+    width: 40px;
+    height: 0.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    position: absolute;
+    background-color: #ff206e ;
+}
+#main-nav{
+    transition: background-color 2s;
+}
+#btn-home{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99999;
+    display: none;
+}
+#side-bar{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    z-index: 9999999;
+}
+#side-bar i{
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+
+}
+#colorsBox{
+    background-color: #ccc;
+    padding: 10px;
+
+}
+.color-box{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ff206e;
+    cursor: pointer;
+}
+#loading{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999999999;
+    background-color: chocolate;
+}
+.spinner {
+    margin: 250px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+  }
+  
+  .dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #333;
+    border-radius: 100%;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+  @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
